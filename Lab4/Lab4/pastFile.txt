@@ -1,0 +1,33 @@
+public static void closeFile(String pastFile, String newFile){
+        FileInputStream inputStream = null;
+        FileOutputStream outputStream = null;
+        try{
+            inputStream = new FileInputStream(pastFile);
+            inputStream.close();
+        }catch (FileNotFoundException e){
+            System.out.println("Исходный файл не существует!");
+        
+        }catch (NullPointerException e){
+            System.out.println("Путь к файлу не указан!");
+
+        } catch (Exception e){
+            System.out.println("Непредвиденная ошибка: " + e);
+        }
+        
+        try{
+            outputStream = new FileOutputStream(newFile);
+            outputStream.close();
+        
+        }catch (NullPointerException e){
+            System.out.println("Путь к файлу не указан!");
+
+        } catch (Exception e){
+            System.out.println("Непредвиденная ошибка: " + e);
+        }
+
+    }
+
+    public static void readFile(String passtFile, String newFile){
+        openFile(passtFile, newFile);
+
+    }

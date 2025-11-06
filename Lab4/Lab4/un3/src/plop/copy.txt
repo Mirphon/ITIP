@@ -1,0 +1,3 @@
+plop.CustomDivisionException: Ошибка: деление на ноль запрещено!
+plop.CustomEmptyStackException: Ошибка. Стек пустой.
+plop.CustomUnsupportedOperationException: Операция не поддерживается!

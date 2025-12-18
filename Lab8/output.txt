@@ -1,0 +1,14 @@
+=== FilterProcessor.filter ===
+Loader 
+Print
+Print
+
+=== TransformProcessor.transform ===
+API
+LOADER 
+PRINT
+PRINT
+
+=== AggregateProcessor.aggregate ===
+TOTAL ELEMENTS: 4
+
